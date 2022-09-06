@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header nav h3 {
+    float: left;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav {
+    overflow: auto;
+    background: rgb(255, 199, 227);
+    background: linear-gradient(249deg, rgba(255, 199, 227, 1) 0%, rgba(211, 249, 255, 1) 100%);
+    padding: 1rem;
+}
+
+#front-page-container {
+    margin: 2rem 0;
+    max-width: 1200px;
+    width: 100%;
+    overflow: auto;
+}
+main{
+    width: 75%;
+    float: left;
+    margin-left: 2.5%;
+}
+main article{
+}
+aside{
+    width: 20%;
+    float: right;
+}
+aside li{
+    height: 50px;
+    margin: 0;
+    border: solid rgba(100, 180, 197);
+}
+footer{
+    clear: both;
+}
