@@ -1,0 +1,98 @@
+body {
+}
+
+
+
+header {
+    grid-area: header;
+    display: flex;
+    background-image: url("/Web2022-deleksamen2/img/melisa-hildt-aV2uMw3zfwQ-unsplash.jpg");
+    background-position: 0 1000px;
+    background-size: cover;
+    width: 100%;
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-areas: "header"
+                        "main"
+                        "aside"
+                        "footer";
+    grid-template-columns: 1fr;
+
+}
+
+header img {
+    width: 143px;
+    margin: 2rem;
+    border-radius: 40px;
+}
+
+header ul {
+    grid-area: nav;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+
+main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    grid-area: aside;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+aside section article {
+    margin: 2rem;
+    width: 400px;
+    flex-grow: 1;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+aside section article p {
+    padding-left: 1rem;
+}
+
+aside section article img {
+    float: left;
+    border: black solid;
+}
+
+footer {
+    grid-area: footer;
+    background-color: lightgray;
+}
+
+@media only screen and (min-width: 900px) {
+
+    #gridContainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "header header header"
+                            "main main aside"
+                            "footer footer footer";
+
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 25px;
+        padding-right: 1rem;
+    }
+    header nav li a{
+        color: black;
+    }
+}
