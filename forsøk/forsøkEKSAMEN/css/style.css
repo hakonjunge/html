@@ -1,0 +1,161 @@
+body {
+}
+
+
+header {
+    display: flex;
+    background-image: url("/deleksamen/Web2022-deleksamen2/img/melisa-hildt-aV2uMw3zfwQ-unsplash.jpg");
+    background-position: 0 1000px;
+    background-size: cover;
+    width: 100%;
+}
+
+header img {
+    width: 143px;
+    margin: 2rem;
+    border-radius: 40px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header nav ul {
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#button1 {
+    border-bottom-color: orangered;
+}
+
+#button2 {
+    border-bottom-color: yellow;
+}
+
+#button3 {
+    border-bottom-color: red;
+}
+
+#button4 {
+    border-bottom-color: deepskyblue;
+}
+
+#button5 {
+    border-bottom-color: lightseagreen;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section {
+    padding: 3rem;
+}
+
+main section a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border: solid black;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+aside section article {
+    margin: 2rem;
+    width: 400px;
+    flex-grow: 1;
+    padding: 1rem;
+    background-color: lightgray;
+
+}
+
+aside section article a {
+    text-decoration: none;
+    color: black;
+}
+
+aside section article img {
+    float: left;
+    border: black solid;
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: lightgray;
+    padding-left: 2rem;
+}
+
+@media only screen and (min-width: 900px) {
+
+    #gridContainer {
+        width: 100%;
+
+
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 25px;
+        padding-right: 1rem;
+    }
+
+    header nav li {
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        border-bottom: solid 8px;
+        flex-grow: 1;
+        border-bottom: solid 8px;
+    }
+
+    header nav li a {
+        color: black;
+        text-decoration: none;
+
+    }
+
+    #button1 {
+        border-bottom-color: orangered;
+    }
+
+    #button2 {
+        border-bottom-color: yellow;
+    }
+
+    #button3 {
+        border-bottom-color: red;
+    }
+
+    #button4 {
+        border-bottom-color: deepskyblue;
+    }
+
+    #button5 {
+        border-bottom-color: lightseagreen;
+    }
+}

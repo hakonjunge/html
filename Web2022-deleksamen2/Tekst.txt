@@ -1,6 +1,0 @@
-Jeg har laget 4 html-dokumenter, og unødvendig mange css-dokumenter. To for mobil og to for desctop.
-Dette er fordi jeg ikke klarte å få til et responsivt design (det fungerer til en viss grad, men menyen ble ikke som jeg ønsket).
-Dette er noe jeg kommer til å prøve å få til i etterkant.
-Den ene wireframen har piler på hva som er hva. Bildene jeg har brukt er fra bildebanken.
-Dummyteksten jeg har brukt er fra https://www.lipsum.com.
-Jeg har brukt figma til å designe wireframenene.
