@@ -1,0 +1,66 @@
+main section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main sectionh2 {
+}
+
+main section img {
+    float: right;
+    height: 300px;
+    padding-left: 2rem;
+}
+
+.data-bilde {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    width: 454px;
+}
+
+.tabell {
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+.tabell > div {
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+    overflow: auto;
+    height: 200px;
+}
+
+.tabell > div:nth-child(1) {
+    background-color: white;
+    border: none;
+    height: 50px;
+}
+
+.tabell > div:nth-child(2) {
+    background-color: lightgray;
+    height: 50px;
+}
+
+.tabell > div:nth-child(3) {
+    background: lightgray;
+    height: 50px;
+}
+
+.tabell > div:nth-child(4) {
+    background: lightgray;
+    height: 50px;
+}
+
+.tabell > div:nth-child(5) {
+    background: lightgray;
+}
+
+.tabell > div:nth-child(9) {
+    background: lightgray;
+}
+
+.tabell > div:nth-child(13) {
+    background: lightgray;
+}
