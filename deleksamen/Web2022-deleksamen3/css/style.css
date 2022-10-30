@@ -79,8 +79,11 @@ main section a {
 }
 .kildeliste a{
     border: none;
+    width: 100%;
 }
-
+.ingress    {
+    font-weight: bold;
+}
 aside {
     display: flex;
     flex-wrap: wrap;
@@ -120,7 +123,6 @@ header nav {
     font-size: 25px;
     padding-right: 1rem;
 }
-
 
 @media only screen and (min-width: 1050px) {
 

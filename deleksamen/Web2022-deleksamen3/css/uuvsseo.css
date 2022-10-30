@@ -20,7 +20,7 @@ main section img {
 
 .tabell {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 25% 1fr 1fr;
     max-width: 100%;
 }
 
@@ -61,6 +61,7 @@ main section img {
     .tabell {
         display: grid;
         grid-template-columns: 25% 1fr 1fr;
-        max-width: 60%;
+        max-width: 80%;
+        font-size: 18px;
     }
 }
