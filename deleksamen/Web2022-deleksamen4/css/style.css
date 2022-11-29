@@ -1,0 +1,226 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    background-image: url("https://www.businessconfig.com/wp-content/uploads/2021/02/melisa-hildt-aV2uMw3zfwQ-unsplash-scaled-e1612366576723.jpg");
+    background-size: cover;
+    background-position: 0 1000px;
+    width: 100%;
+
+}
+
+header img {
+    width: 113px;
+    margin: 2rem;
+    border-radius: 40px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 170px;
+    width: 91%;
+    justify-content: space-between;
+    left: 0;
+    padding-left: 1rem;
+    gap: 1%;
+}
+header ul a:hover{
+    color: white;
+    transition: 0.25s;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+    font-size-adjust: unset;
+}
+
+#button1 {
+    background-color: orangered;
+}
+
+#button2 {
+    background-color: yellow;
+}
+
+#button3 {
+    background-color: red;
+}
+
+#button4 {
+    background-color: deepskyblue;
+}
+
+#button5 {
+    background-color: lightseagreen;
+}
+
+
+main {
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section {
+    padding: 3rem;
+}
+
+main .innhold a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border: solid black;
+}
+.kildeliste a{
+    border: none;
+    width: 100%;
+}
+main .media-buttons {
+    display: flex;
+    justify-items: first baseline;
+    gap: 2rem;
+}
+.ingress    {
+    font-weight: bold;
+}
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+aside section article {
+    margin: 1rem;
+    max-width: 350px;
+    flex-grow: 1;
+    padding: 1rem;
+    background-color: lightgray;
+
+}
+
+aside section article a {
+    text-decoration: none;
+    color: black;
+}
+
+aside section article img {
+    float: left;
+    border: black solid;
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: lightgray;
+    padding-left: 2rem;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-right: 1rem;
+}
+
+@media only screen and (min-width: 1050px) {
+
+    #gridContainer {
+        width: 100%;
+
+
+    }
+    main    {
+        padding-top: 0;
+    }
+
+
+    header nav {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 25px;
+        padding-right: 1rem;
+
+    }
+    header nav ul{
+        position: relative;
+        top: auto;
+        text-decoration: none;
+        font-size: 23px;
+        width: auto;
+        gap: 15px;
+
+
+    }
+
+    header nav ul a{
+
+        text-decoration: none;
+        font-size: 23px;
+
+    }
+
+    header nav li {
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        border-bottom: solid 8px;
+        flex-grow: 1;
+    }
+
+    header nav li a {
+        color: black;
+        text-decoration: none;
+        margin: 0;
+
+    }
+
+    #button1 {
+        border-bottom-color: orangered;
+        background-color: transparent;
+    }
+
+    #button2 {
+        border-bottom-color: yellow;
+        background-color: transparent;
+
+    }
+
+    #button3 {
+        border-bottom-color: red;
+        background-color: transparent;
+
+    }
+
+    #button4 {
+        border-bottom-color: deepskyblue;
+        background-color: transparent;
+
+    }
+
+    #button5 {
+        border-bottom-color: lightseagreen;
+        background-color: transparent;
+
+    }
+}
+@media only screen and (max-width: 374px) {
+    header nav ul   {
+        display: block;
+        width: 95%;
+    }
+    main    {
+        padding-top: 9rem;
+    }
+}

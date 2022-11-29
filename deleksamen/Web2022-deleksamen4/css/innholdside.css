@@ -1,0 +1,35 @@
+main section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+main section img {
+    float: right;
+    height: 300px;
+    padding-left: 2rem;
+}
+main .data-bilde {
+    width: 80%;
+    padding: 10%
+}
+section img {
+    padding-top: 2rem;
+}
+
+
+.main-text {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    main .data-bilde {
+        padding-left: 3rem;
+        padding-bottom: 2rem;
+        width: 454px;
+
+    }
+    .main-text {
+        width: 50%;
+    }
+}
