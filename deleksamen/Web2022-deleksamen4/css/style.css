@@ -97,6 +97,9 @@ main .media-buttons {
 .ingress    {
     font-weight: bold;
 }
+.kart   {
+    max-width: 600px;
+}
 aside {
     display: flex;
     flex-wrap: wrap;
