@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta property="og:title" content="Analyse">
-    <meta property="og:description" content="Hva har blitt gjort av endringer på nettstedet siden det ble startet tidlig i høst, klikk for å finne ut">
-    <meta property="og:url" content="https://itstud.hiof.no/~haakonju/webserver/deleksamen/Web2022-deleksamen4/index.html">
+    <meta property="og:description"
+          content="Hva har blitt gjort av endringer på nettstedet siden det ble startet tidlig i høst, klikk for å finne ut">
+    <meta property="og:url"
+          content="https://itstud.hiof.no/~haakonju/webserver/deleksamen/Web2022-deleksamen4/index.html">
     <meta property="og:image" content="img1/webstacks-WbOR54pzvLM-unsplash.jpeg">
     <meta property="og:image:alt" content="Logo til nettside">
     <meta property="og:site_name" content="Analyse">
@@ -16,7 +18,8 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Analyse">
-    <meta name="twitter:description" content="Hva har blitt gjort av endringer på nettstedet siden det ble startet tidlig i høst, klikk for å finne ut">
+    <meta name="twitter:description"
+          content="Hva har blitt gjort av endringer på nettstedet siden det ble startet tidlig i høst, klikk for å finne ut">
     <meta name="twitter:site" content="@HaakonHIOF">
     <meta name="twitter:creator" content="@haakonju">
     <meta name="twitter:image" content="img1/webstacks-WbOR54pzvLM-unsplash.jpeg">
@@ -48,8 +51,249 @@
         </nav>
     </header>
     <main>
+        <section>
+            <h2>Analyse</h2>
+            <article class="main-text">
+                <h3>Hjem</h3>
+                <p>
+                    Da jeg analyserte hjemsiden var det ikke mye å ta tak i.
+                    Det er noe som går igjen på alle nettsidene og det er at bilder skal være jpeg og ikke jpg. Så jeg
+                    reformaterte alle bildene. Jeg har også lagt inn hover-effekt på menyen i desktop fordi skrifta
+                    synes litt
+                    for dårlig med bakgrunnen. Jeg la inn en liten bakgrunnsfarge i tillegg bare for at alle knappene
+                    skulle
+                    være like lette å lese.
+                    Jeg har lagt til sosiale medier-knapper på alle sidene sånn at man kan dele nettsiden på facebook og
+                    twitter, (merk at twitter-delingen ikke fungerer siden nettsiden ikke er «whitelistet» av
+                    twitter).
+                </p>
+                <img class="analysebilde" src="skjermbilderdel4/hjemdel3mobil.jpeg" alt="">
+                <img class="analysebilde" src="skjermbilderdel4/hjemdel4mobil.jpeg" alt="">
+                <p>Første bildet er deleksamen 3 og det andre bildet er deleksamen 4 etter endringer</p>
+            </article>
+            <br>
+            <article class="main-text">
+                <h3>UU vs SEO</h3>
+                <p>
+                    Da jeg skulle analysere nettstedet mitt, brukte jeg lighthouse på Chrome. Først analyserte jeg
+                    deleksamen 3 uuvsseo.html for mobil, det ga 100 i performance, men nettsiden så ikke bra ut på
+                    mobil.
+                    Tabellen på siden krympet og fulgte bredden på skjermen, men teksten ble nesten uleselig. Det jeg
+                    gjorde var å lage en ekstra tabell, med display: none; når skjermen var i desktop-bredde.
+                    en annen tilbakemelding jeg fikk var at bildene burde være i JPEG og ikke i JPG. Det jeg gjorde var
+                    å reformate alle bildene, men det hadde ingen effekt på noe.
+                </p>
+                <img class="analysebilde" src="skjermbilderdel4/uudel3mobil.jpeg" alt="">
+                <img class="analysebilde" src="skjermbilderdel4/uudel4mobil.jpeg" alt="">
+                <p>Første bildet er deleksamen 3 og det andre bildet er deleksamen 4 etter endringer</p>
+            </article>
+            <br>
+            <article class="main-text">
+                <h3>CMS</h3>
+                <p>
+                    CMS siden hadde en veldig dårlig score på analysen. Dette på blant annet fordi tabellen ikke var
+                    mobilvennlig.
+                    Noe av det som ikke var mobilvennlig i cms del 3 var at jeg hadde overflow på rutene i tabellen, som
+                    gjorde at teksten ikke viste når man gjorde siden smal. Til slutt var innholdet uleselig. Derfor
+                    lagde jeg en tabell som hadde display: off; når sida var i desktop-størrelse.
+
+                </p>
+                <img class="analysebilde" src="skjermbilderdel4/cmsdel3mobil.jpeg" alt="">
+                <img class="analysebilde" src="skjermbilderdel4/cmsdel4mobil.jpeg" alt="">
+                <p>Første bildet er deleksamen 3 og det andre bildet er deleksamen 4 etter endringer</p>
+                <br>
+            </article>
+            <article class="main-text">
+                <h3>WCAG</h3>
+                <p>
+                    Ifølge WCAG 2.0-standarden er punkt 1.3.2 meningsfylt rekkefølge, 2.1.1 tastatur
+                    og 4.1.1 parsing nivå A krav eller må-krav. Jeg har bare plukket ut disse tre punktene for å vise
+                    eksempler, men dersom man laster ned excel-fila så kan man se hvilke krav jeg skjekket om nettsiden
+                    oppfyller.
+
+                    <br>
+                    Av AA krav, så oppfyller siden blant annet punkt 1.4.4 endring av skriftstørrelse, 2.4.6
+                    overskrifter og ledetekster, og 3.2.3 konsekvent navigering.
+                    punkt 1.4.4 sier at man skal kunne endre skriftstørrelsen til 400 uten at informasjon på siden går
+                    tapt, da jeg testet dette gikk det an.
+                    2.4.6 sier at overskrifter og ledetekster skal gi mening og hjelpe brukeren å finne fram, noe jeg
+                    mener siden gjør
+                    Konsekvent navigering er viktig for at brukeren skal kunne finne fram lett.
+                    <br>
+                    <br>
+                    Disse kravene finner du på UU-tilsynet og du kan laste ned malen på nettsidene deres.
+                    <br>AAA-krav er ikke i malen så da gikk jeg inn på nettsiden www.w3.org og fant to krav siden min
+                    oppfyller:
+                    <br>
+                    Punkt 1.4.7 Lav eller ingen bakgrunnslyd, og 2.2.3 No timing er to AAA-krav jeg oppfyller.
+                    No timing krever at dersom du bruker for lang tid på siden blir du ikke kastet ut, og lav eller
+                    ingen bakgrunnslyd oppfylles fordi det ikke blir spillt av noen lyd eller video på siden.
+                    <br>(How to Meet WCAG (Quickref Reference), 2019)
+                    <br><br>
+                    Dersom man ønsker å lese mer om AAA på w3.org kan man trykke på linken <a href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0">HER</a>
+                </p>
+                <br>
+                <p><a href="WCAGpdf.pdf">PDF til WCAG-sjekklisten </a>
+                <p><a href="WCAGexcel.xlsx">Excel til WCAG-sjekklisten </a>
+
+            </article>
+        </section>
+        <section>
+            <div class="tabell1">
+                <div>Nettside</div>
+                <div>Før endring</div>
+                <div>Endringer gjort</div>
+                <div>Etter endring</div>
+
+                <div>Alle sidene</div>
+                <div>
+                    <img src="skjermbilderdel4/hoverdel3.jpeg" alt="">
+                </div>
+                <div>
+                    For å kunne se hva du holder museklikkeren over kan det være lurt å ha en hover-effekt på menyen.
+                    <br>
+                    <br>
+                    Skriften er svart når du ikke holder museklikkeren over, men skriften blir rød og får en "lightgray"
+                    bakgrunn når du hovrer over den
+                </div>
+                <div>
+                    <img src="skjermbilderdel4/hoverdel4.jpeg" alt="">
+                </div>
+
+
+                <div>Alle sidene</div>
+                <div>
+                    <img src="skjermbilderdel4/logodel3.jpeg" alt="">
+                </div>
+                <div>
+                    Jeg gjorde slik at logoen til nettsiden ligger i toppen med tittelen på nettsiden man er på
+                </div>
+                <div>
+                    <img src="skjermbilderdel4/logodel4.jpeg" alt="">
+                </div>
+
+                <div>Alle sidene</div>
+                <div>
+                    <img src="skjermbilderdel4/sosialemedierdel3.jpeg" alt="">
+
+                </div>
+                <div>
+                    Har implementert sosiale medier i bunnen av hver side sånn at man kan dele nettsiden på facebook og
+                    twitter, (merk at twitter-delingen ikke fungerer siden nettsiden ikke er «whitelistet» av
+                    twitter)
+                </div>
+                <div>
+                    <img src="skjermbilderdel4/sosialemedierdel4.jpeg" alt="">
+                </div>
+
+                <div>UU vs SEO</div>
+                <div>
+                    <img class="tabellbilde" src="skjermbilderdel4/uudel3mobiltabell.jpeg" alt="">
+
+                </div>
+                <div>
+                    På UU vs SEO siden har jeg laget en helt ny tabell som vises når du åpner siden på mobil.
+                    <br><br>
+
+                </div>
+                <div>
+                    <img class="tabellbilde" src="skjermbilderdel4/uudel4mobiltabell.jpeg" alt="">
+                </div>
+
+                <div>CMS</div>
+                <div>
+                    <img class="tabellbilde" src="skjermbilderdel4/cmsdel3mobiltabell.jpeg" alt="">
+
+                </div>
+                <div>
+                    Som man ser så er det veldig vanskelig å lese innholdet på bildet fra del 3, det som ble gjort på
+                    del 4 var å lage en ny tabell som har av display på mobil men kommer til syne når skjermen blir
+                    liten nok, og "bytter plassen til desktop-tabellen"
+                </div>
+                <div>
+                    <img class="tabellbilde" src="skjermbilderdel4/cmsdel4mobiltabell.jpeg" alt="">
+                </div>
+            </div>
+            <br><br>
+            <div class="tabell2">
+                <div>Endringsoversikt</div>
+                <div>Alle sidene</div>
+                <div>
+                    For å kunne se hva du holder museklikkeren over kan det være lurt å ha en hover-effekt på menyen.
+                    <br>
+                    <br>
+                    Skriften er svart når du ikke holder museklikkeren over, men skriften blir rød og får en "lightgray"
+                    bakgrunn når du hovrer over den
+                </div>
+                <div>
+                    <img src="skjermbilderdel4/hoverdel3.jpeg" alt="">
+                    <img src="skjermbilderdel4/hoverdel4.jpeg" alt="">
+                </div>
+                <div>
+                    Det første bildet er fra deleksamen 3 og det andre er fra deleksamen 4
+                </div>
+
+
+                <div>Alle sidene</div>
+                <div>
+                    Jeg gjorde slik at logoen til nettsiden ligger i toppen med tittelen på nettsiden man er på
+                </div>
+                <div>
+                    <img src="skjermbilderdel4/logodel3.jpeg" alt="">
+                    <img src="skjermbilderdel4/logodel4.jpeg" alt="">
+                </div>
+                <div>
+                    Det første bildet er fra deleksamen 3 og det andre er fra deleksamen 4
+                </div>
+
+                <div>
+                    Alle sidene
+                </div>
+                <div>
+                    Har implementert sosiale medier i bunnen av hver side sånn at man kan dele nettsiden på facebook og
+                    twitter, (merk at twitter-delingen ikke fungerer siden nettsiden ikke er «whitelistet» av
+                    twitter)
+                </div>
+                <div>
+                    <img src="skjermbilderdel4/sosialemedierdel3.jpeg" alt="">
+                    <img src="skjermbilderdel4/sosialemedierdel4.jpeg" alt="">
+                </div>
+                <div>
+                    Det første bildet er fra deleksamen 3 og det andre er fra deleksamen 4
+                </div>
+
+                <div>
+                    UU vs SEO
+                </div>
+                <div>
+                    På UU vs SEO siden har jeg laget en helt ny tabell som vises når du åpner siden på mobil.
+                </div>
+                <div>
+                    <img class="tabellbilde" src="skjermbilderdel4/uudel3mobiltabell.jpeg" alt="">
+                    <img class="tabellbilde" src="skjermbilderdel4/uudel4mobiltabell.jpeg" alt="">
+                </div>
+                <div>
+                    Bildet til venstre er før og bildet til høyre er etter
+                </div>
+
+                <div>CMS</div>
+                <div>
+                    Som man ser så er det veldig vanskelig å lese innholdet på bildet fra del 3, det som ble gjort på
+                    del 4 var å lage en ny tabell som har av display på mobil men kommer til syne når skjermen blir
+                    liten nok, og "bytter plassen til desktop-tabellen"
+                </div>
+                <div>
+                    <img class="tabellbilde" src="skjermbilderdel4/cmsdel3mobiltabell.jpeg" alt="">
+                    <img class="tabellbilde" src="skjermbilderdel4/cmsdel4mobiltabell.jpeg" alt="">
+                </div>
+                <div>
+                    Bildet til venstre er før og bildet til høyre er etter
+                </div>
+            </div>
+        </section>
         <section class="media-buttons">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fitstud.hiof.no%2F%7Ehaakonju%2Fwebserver%2Fdeleksamen%2FWeb2022-deleksamen4%2Fanalyse.html&amp;src=sdkpreparse" class="fa fa-facebook"></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fitstud.hiof.no%2F%7Ehaakonju%2Fwebserver%2Fdeleksamen%2FWeb2022-deleksamen4%2Fanalyse.html&amp;src=sdkpreparse"
+               class="fa fa-facebook"></a>
             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-pinterest"></a>
         </section>
@@ -58,13 +302,13 @@
         <section>
             <h2 style="padding-left: 30px">Sidemeny</h2>
             <article>
-                <img src="img/150x150.png" alt="">
+                <img src="img/150x150.jpeg" alt="">
                 <h3>UU vs SEO</h3>
                 <p>Hva betyr det å ha universell utforming? Og hvordan kan en karakter påvirke søketreff?</p>
                 <a href="uuvsseo.html">Gå til siden --></a>
             </article>
             <article>
-                <img src="img/150x150.png" alt="">
+                <img src="img/150x150.jpeg" alt="">
                 <h3>CMS</h3>
                 <p>Hva er et content management system? Og hva er forskjellen på en Headless og Tradisjonell CMS</p>
                 <a href="cms.html">Gå til siden --></a>
@@ -75,8 +319,8 @@
 
     <footer>
         <br>
-        <p>Mail: bedriftnavn@mailtjeneste.no <br>
-            Tlf: +47 87654321</p>
+        <p>Telefon: +47 696 08 000</p>
+        <p>E-mail: postmottak@hiof.no</p>
     </footer>
 </div>
 

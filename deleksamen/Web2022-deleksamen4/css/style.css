@@ -34,7 +34,7 @@ header ul {
 header ul a:hover{
     color: red;
     transition: 0.25s;
-    font-size: larger;
+    background-color: lightgray;
 }
 
 nav {

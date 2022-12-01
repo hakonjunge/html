@@ -1,3 +1,141 @@
 .kart   {
-    max-width: 600px;
+    max-width: 300px;
+}
+main img    {
+    max-width: 400px;
+}
+main .tabell2 img   {
+    max-width: 200px;
+}
+.analysebilde    {
+    max-width: 300px;
+}
+.tabellbilde{
+    max-height: 300px;
+}
+main section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabell2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+}
+.tabell2 > div {
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+.tabell2 > div:nth-child(1) {
+    background-color: slategray;
+    border: none;
+    height: 50px;
+    font-size: larger;
+}
+.tabell2 > div:nth-child(2) {
+    background-color: lightgray;
+    border: none;
+}
+.tabell2 > div:nth-child(4) {
+    background-color: lightgray;
+    border: none;
+}
+.tabell2 > div:nth-child(6) {
+    background-color: lightgray;
+    border: none;
+    margin-top: 40px;
+
+}
+
+
+
+.tabell2 > div:nth-child(10) {
+    background-color: lightgray;
+    border: none;
+    margin-top: 40px;
+
+}
+.tabell2 > div:nth-child(14) {
+    background-color: lightgray;
+    border: none;
+    margin-top: 40px;
+
+}
+
+.tabell2 > div:nth-child(18) {
+    background-color: lightgray;
+    border: none;
+    margin-top: 40px;
+}
+
+
+.tabell1 {
+    display: none;
+}
+
+@media only screen and (min-width: 1050px) {
+    .analysebilde   {
+        max-width: 400px;
+    }
+    .kart   {
+        max-width: 600px;
+    }
+    .tabell2    {
+        display: none;
+    }
+    .tabell1 {
+        display: grid;
+        grid-template-columns: 15% 1fr 20% 1fr;
+        max-width: 100%;
+    }
+    .tabell1 > div {
+        margin: 2px;
+        padding: 5px;
+        border: 1px solid black;
+    }
+
+    .tabell1 > div:nth-child(1) {
+        background-color: white;
+        border: none;
+        height: 50px;
+    }
+
+    .tabell1 > div:nth-child(2) {
+        background-color: lightgray;
+        height: 50px;
+    }
+
+    .tabell1 > div:nth-child(3) {
+        background: lightgray;
+        height: 50px;
+    }
+
+    .tabell1 > div:nth-child(4) {
+        background: lightgray;
+        height: 50px;
+    }
+
+    .tabell1 > div:nth-child(5) {
+        background: lightgray;
+    }
+
+    .tabell1 > div:nth-child(9) {
+        background: lightgray;
+    }
+
+    .tabell1 > div:nth-child(13) {
+        background: lightgray;
+    }
+    .tabell1 > div:nth-child(17) {
+        background: lightgray;
+    }
+    .tabell1 > div:nth-child(21) {
+        background: lightgray;
+    }
+
+
 }

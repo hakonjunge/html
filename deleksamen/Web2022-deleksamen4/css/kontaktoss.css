@@ -1,0 +1,8 @@
+.kart   {
+    max-width: 300px;
+}
+@media only screen and (min-width: 1050px) {
+    .kart {
+        max-width: 600px;
+    }
+}
